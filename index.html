@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Venta Outlead Octubre</title>
+</head>
+
+<body>
+    <header>
+        <h1>Ventas Outlead Porcelanite-Lamosa</h1>
+        <img src="logo-lamosa.png" alt="logo-lamosa">
+        <h2>Venta exclusiva 19 de Octubre 2024</h2>
+    </header>
+    <br>
+    <main>
+        <div id="container">
+            <label for="name">Nombre</label>
+            <input type="text" id="name" name="text" placeholder="Nombre Completo" required style="width: auto;">
+            <br>
+            <br>
+            <input type="submit" value="Enviar" id="Aceptar" alt="btnAceptar" />
+            <div id="informacion">
+                <p id="information"></p>
+                <p id="folio"></p>
+                <p id="time"></p>
+            </div>
+            <br>
+            <label for="date">Fecha del evento</label>
+            <input type="date" id="date" value="2024-10-19" readonly name="date">
+            <br>
+            <br>
+            <label for="horarios" id="timelabel">Selecciona un horario:</label>
+            <select id="horarios" name="horarios"></select>
+            <br>
+            <br>
+            <input type="button" value="Agendar Compra" id="btnAgendar">
+            <br>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(#636363, #000000);
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+header {
+    margin-top: 1rem;
+    max-width: 100%;
+    text-align: center;
+    text-shadow: #ff9500 1px 0 1.2rem;
+    color: #a6a6a6;
+
+}
+
+header img {
+    width: 10%;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+header h2 {
+    margin-bottom: 2rem;
+}
+
+main {
+    background: linear-gradient(200deg, #ffffff, #028cff);
+    width: 46%;
+    margin-left: 27%;
+    margin-right: 27%;
+    text-align: center;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    box-shadow: 10px 5px 5px rgb(0, 0, 0);
+    margin-bottom: 7rem;
+}
+
+#container {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    box-sizing: border-box;
+    font-weight: 600;
+}
+
+#container label:first-child {
+    cursor: pointer;
+}
+
+#timelabel:hover {
+    cursor: pointer;
+}
+
+#Aceptar {
+    font-size: 1rem;
+    border-radius: 1rem;
+    padding: 5px;
+    background: #ffffff;
+    transition: 1s;
+}
+
+#Aceptar:hover {
+    background: #b2dcff;
+    transition: 700ms;
+    cursor: pointer;
+    font-weight: 600;
+    transform: scale(1.15);
+}
+
+#informacion {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-top: .7rem;
+}
+
+#btnAgendar {
+    font-size: 1rem;
+    border-radius: 1rem;
+    padding: .4rem;
+    background-color: #a0ffa4;
+
+}
+
+#btnAgendar:hover {
+
+    transition: 700ms;
+    cursor: pointer;
+    background-color: #32fe38;
+    font-weight: 600;
+    transform: scale(1.15);
+
+}
+
+label {
+    margin-right: .5rem;
+}
